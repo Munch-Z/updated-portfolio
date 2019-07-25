@@ -48,7 +48,7 @@ nav > div {
 
 .project-image {
     height: auto;
-    width: 250px;
+    width: 400px;
     margin: 0px 10px 0px 10px;
 }
 
@@ -96,6 +96,11 @@ nav > div {
  text-align: center;
 }
 
+.svg {
+    color: black;
+    margin: 0px 1px 0px 1px;
+}
+
 @media only screen and (max-width: 640px) {
     .cell-inner {
         flex-direction: column;
@@ -105,5 +110,9 @@ nav > div {
 
     .right {
         flex-direction: column-reverse;
+    }
+
+    .project-image {
+        padding-top: 10px;
     }
 }
