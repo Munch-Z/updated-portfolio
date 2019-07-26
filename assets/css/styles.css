@@ -101,7 +101,7 @@ nav > div {
     margin: 0px 1px 0px 1px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 930px) {
     .cell-inner {
         flex-direction: column;
         align-items: center;
@@ -114,5 +114,6 @@ nav > div {
 
     .project-image {
         padding-top: 10px;
+        width: 250px;
     }
 }
