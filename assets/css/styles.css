@@ -117,3 +117,11 @@ nav > div {
         width: 330px;
     }
 }
+
+
+@media only screen and (max-width: 640px) {
+    .project-image {
+        padding-top: 10px;
+        width: 250px;
+    }
+}
